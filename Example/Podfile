@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JalapenoTiles_Example' do
+  pod 'JalapenoTiles', :path => '../'
+
+  target 'JalapenoTiles_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
