@@ -248,12 +248,12 @@ class JalapenoTileCollectionViewCell: UICollectionViewCell {
         self.jalapenoAddButton.center.x += halfMovePosition
         self.jalapenoCountNumber.isHidden = true
         self.jalapenoAddButton.isHidden = true
-        let bundle = Bundle(for: JalapenoTilesView.self)
-        let image = UIImage(named: "addShape", in: bundle, compatibleWith: nil)
         UIView.transition(with: self.jalapenoRemoveButton,
                           duration: UIConstants.JalapenoTileCollectionViewCell.animationDuration,
                           options: .transitionCrossDissolve , animations: {
-            self.jalapenoRemoveButton.setImage(image, for: .normal)
+                            let bundle = Bundle(for: JalapenoTilesView.self)
+                            let image = UIImage(named: "addShape", in: bundle, compatibleWith: nil)
+                            self.jalapenoRemoveButton.setImage(image, for: .normal)
         }, completion: nil)
         UIView.animate(withDuration: UIConstants.JalapenoTileCollectionViewCell.animationDuration, animations: {
             self.jalapenoCircleView.frame.size.width -= movePosition
@@ -269,12 +269,12 @@ class JalapenoTileCollectionViewCell: UICollectionViewCell {
         let movePosition = self.frame.width / 2
         let halfMovePosition = movePosition / 2
         self.jalapenoAddButton.center.x -= halfMovePosition
-        let bundle = Bundle(for: JalapenoTilesView.self)
-        let image = UIImage(named: "removeShape", in: bundle, compatibleWith: nil)
         UIView.transition(with: self.jalapenoRemoveButton,
                           duration: UIConstants.JalapenoTileCollectionViewCell.animationDuration,
                           options: .transitionCrossDissolve , animations: {
-            self.jalapenoRemoveButton.setImage(image, for: .normal)
+                            let bundle = Bundle(for: JalapenoTilesView.self)
+                            let image = UIImage(named: "removeShape", in: bundle, compatibleWith: nil)
+                            self.jalapenoRemoveButton.setImage(image, for: .normal)
         }, completion: nil)
         UIView.animate(withDuration: UIConstants.JalapenoTileCollectionViewCell.animationDuration, animations: {
             self.jalapenoCircleView.frame.size.width += movePosition
