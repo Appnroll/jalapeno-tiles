@@ -1,0 +1,16 @@
+PODS:
+  - JalapenoTiles (0.1.0)
+
+DEPENDENCIES:
+  - JalapenoTiles (from `../`)
+
+EXTERNAL SOURCES:
+  JalapenoTiles:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JalapenoTiles: 32acbc52e48b8ca592fcc0e1c0e6f3402078fd37
+
+PODFILE CHECKSUM: 5632b677c93b6a959f5090fb404d2de0ae9cc41a
+
+COCOAPODS: 1.5.3
