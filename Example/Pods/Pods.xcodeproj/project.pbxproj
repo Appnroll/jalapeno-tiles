@@ -11,12 +11,24 @@
 		19F263FBF100606090BE1EE02C2C98FC /* Pods-JalapenoTiles_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B0C2DAAAA40BC8C7DA0B85A345E456 /* Pods-JalapenoTiles_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227CBDE4E6F1D03485A7C0DFFC88EEB2 /* JalapenoTiles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 567E344661A3BEC138D0E8923A90008F /* JalapenoTiles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B3C8BF20E9446BD37234BA6C4BFF70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6F7807A04878CAACCC02F2E2081DC424 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E676C085EE0D21BA607BA072B79AFA66 /* ReplaceMe.swift */; };
 		7F1C283423F475BA356BF5C771439EA1 /* Pods-JalapenoTiles_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641F6470BA5D08650530A232FF35A2AB /* Pods-JalapenoTiles_Example-dummy.m */; };
 		A230FA88BC03AC63B9170D36CEEDD32B /* JalapenoTiles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BA300C8B2B4B44342BA5B966D6CB6D /* JalapenoTiles-dummy.m */; };
 		AAAB40436C39A7B649454864A89C143E /* Pods-JalapenoTiles_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 029693168C4396C4C3F6E38E1C39012F /* Pods-JalapenoTiles_Tests-dummy.m */; };
 		BA7127E9ED19BB693ECB55EF8C15157B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C509AE5B5A2E13D4DFB892A7930E522E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DA07071D21B5B0C90032CA62 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071121B5B0C80032CA62 /* Colors.swift */; };
+		DA07071E21B5B0C90032CA62 /* JalapenoTilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071221B5B0C80032CA62 /* JalapenoTilesView.swift */; };
+		DA07071F21B5B0C90032CA62 /* UIControl+SwiftTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071321B5B0C80032CA62 /* UIControl+SwiftTarget.swift */; };
+		DA07072021B5B0C90032CA62 /* JalapenoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071421B5B0C90032CA62 /* JalapenoModel.swift */; };
+		DA07072121B5B0C90032CA62 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071521B5B0C90032CA62 /* ShadowView.swift */; };
+		DA07072221B5B0C90032CA62 /* ScreenSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071621B5B0C90032CA62 /* ScreenSizes.swift */; };
+		DA07072321B5B0C90032CA62 /* UIView+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071721B5B0C90032CA62 /* UIView+Center.swift */; };
+		DA07072421B5B0C90032CA62 /* JalapenoTileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071821B5B0C90032CA62 /* JalapenoTileCollectionViewCell.swift */; };
+		DA07072521B5B0C90032CA62 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071921B5B0C90032CA62 /* UIConstants.swift */; };
+		DA07072621B5B0C90032CA62 /* UIView+ConstraintsWithFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071A21B5B0C90032CA62 /* UIView+ConstraintsWithFormat.swift */; };
+		DA07072721B5B0C90032CA62 /* JalapenoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071B21B5B0C90032CA62 /* JalapenoHeaderView.swift */; };
+		DA07072821B5B0C90032CA62 /* JalapenoPriceLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07071C21B5B0C90032CA62 /* JalapenoPriceLabelView.swift */; };
+		DA07072A21B5B0D90032CA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA07072921B5B0D90032CA62 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,36 +54,48 @@
 		0BD5B3FADF36679934B410C8AA4092CF /* Pods-JalapenoTiles_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JalapenoTiles_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0DC33E8E75A74015476C0DDA279A198A /* Pods-JalapenoTiles_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTiles_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0FE0B102FDF339B37A81BCC6771159DC /* Pods-JalapenoTiles_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTiles_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3DCFFC54A585C0BB21A563FAB00224A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3DCFFC54A585C0BB21A563FAB00224A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F84A79BB518528186EF4B36F82763D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		443C98345DF69C6BE77422927A8DC52D /* JalapenoTiles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JalapenoTiles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		443C98345DF69C6BE77422927A8DC52D /* JalapenoTiles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JalapenoTiles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D676B9FFFD8F06D595B8008EF916376 /* Pods-JalapenoTiles_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JalapenoTiles_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		567E344661A3BEC138D0E8923A90008F /* JalapenoTiles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JalapenoTiles-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C1F8920888236729BF8D8055B6BE810 /* Pods-JalapenoTiles_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTiles_Example-resources.sh"; sourceTree = "<group>"; };
 		62BA300C8B2B4B44342BA5B966D6CB6D /* JalapenoTiles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JalapenoTiles-dummy.m"; sourceTree = "<group>"; };
 		641F6470BA5D08650530A232FF35A2AB /* Pods-JalapenoTiles_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JalapenoTiles_Example-dummy.m"; sourceTree = "<group>"; };
-		67921C2472265C40B70283F3A3262F8A /* Pods_JalapenoTiles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JalapenoTiles_Tests.framework; path = "Pods-JalapenoTiles_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67921C2472265C40B70283F3A3262F8A /* Pods_JalapenoTiles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JalapenoTiles_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		696F4C8627110F4EB437687228863B93 /* Pods-JalapenoTiles_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTiles_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6B1F1B23AF0402F3200177000DD72341 /* Pods_JalapenoTiles_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JalapenoTiles_Example.framework; path = "Pods-JalapenoTiles_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1F1B23AF0402F3200177000DD72341 /* Pods_JalapenoTiles_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JalapenoTiles_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		800CCCFDD6AD7FCBC8A1D5890671B5F3 /* Pods-JalapenoTiles_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JalapenoTiles_Tests-umbrella.h"; sourceTree = "<group>"; };
 		889850E14B196FAFFB515657B073059A /* JalapenoTiles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JalapenoTiles-prefix.pch"; sourceTree = "<group>"; };
 		88F22ACA2472BE1D7C510316DD57B002 /* Pods-JalapenoTiles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTiles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E451187853CA02199D5B7E9ED2016AA /* Pods-JalapenoTiles_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JalapenoTiles_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		92A13B1B35216B05A93387B56DB6205F /* JalapenoTiles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JalapenoTiles.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE378DDEDDBD6F1D3879DA3CE7297C0C /* Pods-JalapenoTiles_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JalapenoTiles_Example.modulemap"; sourceTree = "<group>"; };
-		B0B015DFEEF8C14595E22E76EDF0FA3A /* JalapenoTiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JalapenoTiles.framework; path = JalapenoTiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B015DFEEF8C14595E22E76EDF0FA3A /* JalapenoTiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JalapenoTiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B312CFEB585242C99A101014163217A5 /* Pods-JalapenoTiles_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JalapenoTiles_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B455B1C5D02DAE3BEA3D81B6C5D35680 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF8184A0DF328BDB1E773BE554A26329 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A4E552333EB3CB0217A79289C70652 /* Pods-JalapenoTiles_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTiles_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CD56F49E7C0B1DD6BA66E443DBCEBBCB /* Pods-JalapenoTiles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JalapenoTiles_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CFC2DED7FA3A07F1E9A61FD2107A707F /* JalapenoTiles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JalapenoTiles.modulemap; sourceTree = "<group>"; };
+		DA07071121B5B0C80032CA62 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DA07071221B5B0C80032CA62 /* JalapenoTilesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JalapenoTilesView.swift; sourceTree = "<group>"; };
+		DA07071321B5B0C80032CA62 /* UIControl+SwiftTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+SwiftTarget.swift"; sourceTree = "<group>"; };
+		DA07071421B5B0C90032CA62 /* JalapenoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JalapenoModel.swift; sourceTree = "<group>"; };
+		DA07071521B5B0C90032CA62 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		DA07071621B5B0C90032CA62 /* ScreenSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSizes.swift; sourceTree = "<group>"; };
+		DA07071721B5B0C90032CA62 /* UIView+Center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Center.swift"; sourceTree = "<group>"; };
+		DA07071821B5B0C90032CA62 /* JalapenoTileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JalapenoTileCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA07071921B5B0C90032CA62 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		DA07071A21B5B0C90032CA62 /* UIView+ConstraintsWithFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ConstraintsWithFormat.swift"; sourceTree = "<group>"; };
+		DA07071B21B5B0C90032CA62 /* JalapenoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JalapenoHeaderView.swift; sourceTree = "<group>"; };
+		DA07071C21B5B0C90032CA62 /* JalapenoPriceLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JalapenoPriceLabelView.swift; sourceTree = "<group>"; };
+		DA07072921B5B0D90032CA62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF934B8E40798C0CE22C05689725E1D /* Pods-JalapenoTiles_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTiles_Tests-resources.sh"; sourceTree = "<group>"; };
 		E1B0C2DAAAA40BC8C7DA0B85A345E456 /* Pods-JalapenoTiles_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JalapenoTiles_Example-umbrella.h"; sourceTree = "<group>"; };
-		E676C085EE0D21BA607BA072B79AFA66 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JalapenoTiles/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F294AB5C1642673FE1DA2311D2338EC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F294AB5C1642673FE1DA2311D2338EC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +129,19 @@
 		1DFC07A1E5E8C50C77193F2A7EF336F1 /* JalapenoTiles */ = {
 			isa = PBXGroup;
 			children = (
-				E676C085EE0D21BA607BA072B79AFA66 /* ReplaceMe.swift */,
+				DA07071121B5B0C80032CA62 /* Colors.swift */,
+				DA07071421B5B0C90032CA62 /* JalapenoModel.swift */,
+				DA07071B21B5B0C90032CA62 /* JalapenoHeaderView.swift */,
+				DA07071C21B5B0C90032CA62 /* JalapenoPriceLabelView.swift */,
+				DA07071821B5B0C90032CA62 /* JalapenoTileCollectionViewCell.swift */,
+				DA07071221B5B0C80032CA62 /* JalapenoTilesView.swift */,
+				DA07071621B5B0C90032CA62 /* ScreenSizes.swift */,
+				DA07071521B5B0C90032CA62 /* ShadowView.swift */,
+				DA07071921B5B0C90032CA62 /* UIConstants.swift */,
+				DA07071321B5B0C80032CA62 /* UIControl+SwiftTarget.swift */,
+				DA07071721B5B0C90032CA62 /* UIView+Center.swift */,
+				DA07071A21B5B0C90032CA62 /* UIView+ConstraintsWithFormat.swift */,
+				DA07072921B5B0D90032CA62 /* Assets.xcassets */,
 				F4AE51C5BCF7252BA884C3EFDB0E449F /* Pod */,
 				4158859D18DA2588EC6DA97DD3587737 /* Support Files */,
 			);
@@ -320,7 +356,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					1130B5FF48AE0DE3DC68ADF732989932 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -353,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA07072A21B5B0D90032CA62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +428,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA07072221B5B0C90032CA62 /* ScreenSizes.swift in Sources */,
+				DA07072721B5B0C90032CA62 /* JalapenoHeaderView.swift in Sources */,
+				DA07072121B5B0C90032CA62 /* ShadowView.swift in Sources */,
+				DA07071F21B5B0C90032CA62 /* UIControl+SwiftTarget.swift in Sources */,
+				DA07072321B5B0C90032CA62 /* UIView+Center.swift in Sources */,
+				DA07071E21B5B0C90032CA62 /* JalapenoTilesView.swift in Sources */,
+				DA07072421B5B0C90032CA62 /* JalapenoTileCollectionViewCell.swift in Sources */,
+				DA07072821B5B0C90032CA62 /* JalapenoPriceLabelView.swift in Sources */,
 				A230FA88BC03AC63B9170D36CEEDD32B /* JalapenoTiles-dummy.m in Sources */,
-				6F7807A04878CAACCC02F2E2081DC424 /* ReplaceMe.swift in Sources */,
+				DA07072521B5B0C90032CA62 /* UIConstants.swift in Sources */,
+				DA07072021B5B0C90032CA62 /* JalapenoModel.swift in Sources */,
+				DA07071D21B5B0C90032CA62 /* Colors.swift in Sources */,
+				DA07072621B5B0C90032CA62 /* UIView+ConstraintsWithFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +478,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTiles_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTiles_Example/Pods-JalapenoTiles_Example.modulemap";
@@ -448,6 +501,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92A13B1B35216B05A93387B56DB6205F /* JalapenoTiles.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -460,7 +514,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JalapenoTiles/JalapenoTiles-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JalapenoTiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JalapenoTiles/JalapenoTiles.modulemap";
 				PRODUCT_MODULE_NAME = JalapenoTiles;
@@ -469,7 +523,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -480,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92A13B1B35216B05A93387B56DB6205F /* JalapenoTiles.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -492,7 +547,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JalapenoTiles/JalapenoTiles-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JalapenoTiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JalapenoTiles/JalapenoTiles.modulemap";
 				PRODUCT_MODULE_NAME = JalapenoTiles;
@@ -500,9 +555,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -560,11 +614,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -585,7 +640,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTiles_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTiles_Tests/Pods-JalapenoTiles_Tests.modulemap";
@@ -619,7 +674,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTiles_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTiles_Example/Pods-JalapenoTiles_Example.modulemap";
@@ -630,8 +685,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -692,7 +746,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -719,7 +773,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JalapenoTiles_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JalapenoTiles_Tests/Pods-JalapenoTiles_Tests.modulemap";
