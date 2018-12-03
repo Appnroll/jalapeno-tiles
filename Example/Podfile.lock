@@ -1,5 +1,5 @@
 PODS:
-  - JalapenoTiles (0.1.0)
+  - JalapenoTiles (1.0.0)
 
 DEPENDENCIES:
   - JalapenoTiles (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JalapenoTiles: 32acbc52e48b8ca592fcc0e1c0e6f3402078fd37
+  JalapenoTiles: 09ec2337f1a651b4d1431bdd9e2f33407249f5ef
 
 PODFILE CHECKSUM: 5632b677c93b6a959f5090fb404d2de0ae9cc41a
 

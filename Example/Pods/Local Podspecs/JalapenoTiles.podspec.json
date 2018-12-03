@@ -1,22 +1,25 @@
 {
   "name": "JalapenoTiles",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of JalapenoTiles.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Namedix/JalapenoTiles",
+  "homepage": "https://github.com/Appnroll/jalapeno-tiles",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Namedix": "bartek.pichalski@mohemian.com"
+    "Namedix": "bartek.pichalski@appnroll.com"
   },
   "source": {
-    "git": "https://github.com/Namedix/JalapenoTiles.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Appnroll/jalapeno-tiles.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "JalapenoTiles/Classes/**/*"
+  "source_files": "JalapenoTiles/**/*.{swift}",
+  "resources": "JalapenoTiles/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "frameworks": "UIKit",
+  "swift_version": "4.2"
 }
