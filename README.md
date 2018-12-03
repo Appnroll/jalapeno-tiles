@@ -22,7 +22,7 @@ pod 'JalapenoTiles'
 
 ## Author
 
-Namedix, bartek.pichalski@mohemian.com
+Namedix, bartek.pichalski@appnroll.com
 
 ## License
 
