@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JalapenoTiles'
-    s.version          = '0.4.0'
+    s.version          = '0.1.0'
     s.summary          = 'A simple way to create a store screen.'
     s.description      = 'The library was created to help developers create store screens. It adapts to each screen in a very simple and transparent way.'
     s.homepage         = 'https://github.com/Appnroll/jalapeno-tiles'
