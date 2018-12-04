@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.white
         self.title = "Jalapeno Tiles"
 
-        self.jalapenioCollectionView = JalapenoTilesView(title: "Title", data: data)
+        self.jalapenioCollectionView = JalapenoTilesView(data: data)
         self.jalapenioCollectionView.showPriceTags = true
         self.jalapenioCollectionView.textColor = UIColor.textColor()
         self.jalapenioCollectionView.accentColor = UIColor.priceTextColor()

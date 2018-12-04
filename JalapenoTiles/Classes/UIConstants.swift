@@ -12,7 +12,6 @@ import UIKit
 struct UIConstants {
     struct JalapenoTilesView {
         static let horizontalPadding: CGFloat = 7.5 // Left and right padding to collectionView
-        static let headerHeight: CGFloat = 62 // The collectionView header size
         static let sectionInset: CGFloat = 6.0 // The left, right, bottom, top section inset in collectionView
     }
     struct JalapenoTileCollectionViewCell {

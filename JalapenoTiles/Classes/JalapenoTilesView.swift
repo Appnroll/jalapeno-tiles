@@ -12,8 +12,6 @@ public class JalapenoTilesView: UIView {
 
     public var collectionView: UICollectionView!
     private var cellReuseIdentifier: String = "Cell"
-    private var headerReuseIdentifier: String = "Header"
-    public var title: String = ""
     public var showPriceTags: Bool = true
     public var textColor: UIColor = UIColor.textColor()
     public var accentColor: UIColor = UIColor.priceTextColor()
@@ -30,9 +28,8 @@ public class JalapenoTilesView: UIView {
         self.setupConstraints()
     }
 
-    public convenience init(title: String, data: [JalapenoModel]) {
+    public convenience init(data: [JalapenoModel]) {
         self.init()
-        self.title = title
         self.data = data
     }
 
@@ -70,8 +67,6 @@ public class JalapenoTilesView: UIView {
     fileprivate func setupCollectionView() {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
-        layout.headerReferenceSize = CGSize(width: self.frame.width,
-                                            height: UIConstants.JalapenoTilesView.headerHeight)
         layout.estimatedItemSize = CGSize(width: 1, height: 1)
         layout.sectionInset = UIEdgeInsets(top: UIConstants.JalapenoTilesView.sectionInset,
                                            left: UIConstants.JalapenoTilesView.sectionInset,
@@ -82,9 +77,6 @@ public class JalapenoTilesView: UIView {
         collectionView.backgroundColor = UIColor.backgroundColor()
         collectionView.register(JalapenoTileCollectionViewCell.self,
                                 forCellWithReuseIdentifier: self.cellReuseIdentifier)
-        collectionView.register(JalapenoHeaderView.self,
-                                forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader,
-                                withReuseIdentifier: self.headerReuseIdentifier)
         collectionView.alwaysBounceVertical = true
         collectionView.dataSource = self
         collectionView.delegate = self
@@ -111,21 +103,6 @@ extension JalapenoTilesView: UICollectionViewDelegate, UICollectionViewDataSourc
                        showPriceTag: self.showPriceTags, textColor: self.textColor,
                        accentColor: self.accentColor)
         return cell
-    }
-
-    private func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        var view: JalapenoHeaderView!
-
-        switch kind {
-        case UICollectionView.elementKindSectionHeader:
-            view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader,
-                                                                   withReuseIdentifier: headerReuseIdentifier,
-                                                                   for: indexPath) as? JalapenoHeaderView
-            view.configure(title: title, color: self.textColor)
-        default:
-            break
-        }
-        return view
     }
 }
 
