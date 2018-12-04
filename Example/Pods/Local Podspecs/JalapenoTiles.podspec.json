@@ -19,7 +19,7 @@
     "ios": "10.0"
   },
   "source_files": "JalapenoTiles/**/*.{swift}",
-  "resources": "JalapenoTiles/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
+  "resources": "JalapenoTiles/Assets/*.{png,jpeg,jpg,storyboard,xib,xcassets}",
   "frameworks": "UIKit",
   "swift_version": "4.2"
 }

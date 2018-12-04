@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     s.ios.deployment_target = '10.0'
     s.source_files = 'JalapenoTiles/**/*.{swift}'
-    s.resources = 'JalapenoTiles/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+    s.resources = 'JalapenoTiles/Assets/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
     s.frameworks = 'UIKit'
     s.swift_version = '4.2'
 
