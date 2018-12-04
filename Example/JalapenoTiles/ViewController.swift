@@ -12,10 +12,10 @@ import JalapenoTiles
 class ViewController: UIViewController {
 
     var jalapenioCollectionView: JalapenoTilesView!
-    let data = [JalapenoModel(id: "1",title: "Salami z Jalapenyo", imageName: "Jalapenio", price: 10.99),
-                JalapenoModel(id: "2",title: "Bajgel Z Twarożkiem", imageName: "BajgelZTwarozkiem", price: 29.99),
-                JalapenoModel(id: "3",title: "Grillowana Papryka", imageName: "GrillowanaPapryka", price: 9.99),
-                JalapenoModel(id: "4",title: "Salami z Jalapenyo", imageName: "Jalapenio", price: 10.0)]
+    let data = [JalapenoModel(id: "1",title: "First Item", imageName: "Jalapenio", price: 10.99),
+                JalapenoModel(id: "2",title: "Second Item", imageName: "BajgelZTwarozkiem", price: 29.99),
+                JalapenoModel(id: "3",title: "Third Item", imageName: "GrillowanaPapryka", price: 9.99),
+                JalapenoModel(id: "4",title: "Fourth Item", imageName: "Jalapenio", price: 10.0)]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,9 +24,9 @@ class ViewController: UIViewController {
 
     fileprivate func setupView() {
         self.view.backgroundColor = UIColor.white
-        self.title = "Ubogi Ślimak"
+        self.title = "Jalapeno Tiles"
 
-        self.jalapenioCollectionView = JalapenoTilesView(title: "Metafora", data: data)
+        self.jalapenioCollectionView = JalapenoTilesView(title: "Title", data: data)
         self.jalapenioCollectionView.showPriceTags = true
         self.jalapenioCollectionView.textColor = UIColor.textColor()
         self.jalapenioCollectionView.accentColor = UIColor.priceTextColor()
