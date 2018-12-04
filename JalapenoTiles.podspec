@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     s.summary          = 'A simple way to create a store screen.'
     s.description      = 'The library was created to help developers create store screens. It adapts to each screen in a very simple and transparent way.'
     s.homepage         = 'https://github.com/Appnroll/jalapeno-tiles'
-    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Namedix' => 'bartek.pichalski@appnroll.com' }
     s.source           = { :git => 'https://github.com/Appnroll/jalapeno-tiles.git', :tag => s.version.to_s }
