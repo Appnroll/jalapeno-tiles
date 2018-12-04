@@ -81,7 +81,8 @@ class JalapenoTileCollectionViewCell: UICollectionViewCell {
     var jalapenoCircleView: UIView = {
         let view = UIView()
         view.backgroundColor = UIColor.white
-        view.layer.applySketchShadow(color: UIColor.shadowColor(), alpha: 1, x: 0, y: 2, blur: 4, spread: 0)
+        view.layer.applySketchShadow(color: UIColor(red:0.61, green:0.61, blue:0.61, alpha:0.3),
+                                     alpha: 1, x: 0, y: 2, blur: 4, spread: 0)
         return view
     }()
 

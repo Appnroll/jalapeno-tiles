@@ -28,8 +28,8 @@ class ViewController: UIViewController {
 
         self.jalapenioCollectionView = JalapenoTilesView(data: data)
         self.jalapenioCollectionView.showPriceTags = true
-        self.jalapenioCollectionView.textColor = UIColor.textColor()
-        self.jalapenioCollectionView.accentColor = UIColor.priceTextColor()
+        self.jalapenioCollectionView.textColor = UIColor(red:0.34, green:0.33, blue:0.43, alpha:1.0)
+        self.jalapenioCollectionView.accentColor = UIColor(red:0.38, green:0.80, blue:0.68, alpha:1.0)
 
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Basket", style: .plain, target: self, action: #selector(basketTapped))
         self.view.addSubview(self.jalapenioCollectionView)

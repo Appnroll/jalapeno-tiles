@@ -13,8 +13,8 @@ public class JalapenoTilesView: UIView {
     public var collectionView: UICollectionView!
     private var cellReuseIdentifier: String = "Cell"
     public var showPriceTags: Bool = true
-    public var textColor: UIColor = UIColor.textColor()
-    public var accentColor: UIColor = UIColor.priceTextColor()
+    public var textColor: UIColor = UIColor(red:0.34, green:0.33, blue:0.43, alpha:1.0)
+    public var accentColor: UIColor = UIColor(red:0.38, green:0.80, blue:0.68, alpha:1.0)
     public var basket: [String : Int] = [:]
     public var data: [JalapenoModel] = [] {
         didSet {
@@ -39,7 +39,7 @@ public class JalapenoTilesView: UIView {
 
     fileprivate func setupView() {
         self.setupCollectionView()
-        self.backgroundColor = UIColor.backgroundColor()
+        self.backgroundColor = UIColor(red:0.93, green:0.93, blue:0.93, alpha:1.0)
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissBuyContainer))
         self.collectionView.addGestureRecognizer(tap)
     }
@@ -74,7 +74,7 @@ public class JalapenoTilesView: UIView {
                                            right: UIConstants.JalapenoTilesView.sectionInset)
 
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = UIColor.backgroundColor()
+        collectionView.backgroundColor = UIColor(red:0.93, green:0.93, blue:0.93, alpha:1.0)
         collectionView.register(JalapenoTileCollectionViewCell.self,
                                 forCellWithReuseIdentifier: self.cellReuseIdentifier)
         collectionView.alwaysBounceVertical = true
@@ -100,7 +100,7 @@ extension JalapenoTilesView: UICollectionViewDelegate, UICollectionViewDataSourc
         }
 
         cell.configure(model: data[indexPath.item], delegate: self,
-                       showPriceTag: self.showPriceTags, textColor: self.textColor,
+                       showPriceTag: self.showPriceTags, textColor: UIColor(red:0.34, green:0.33, blue:0.43, alpha:1.0),
                        accentColor: self.accentColor)
         return cell
     }

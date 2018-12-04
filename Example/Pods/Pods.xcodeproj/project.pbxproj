@@ -13,7 +13,6 @@
 		23D0A8196FE67766E27F809BC770B9E5 /* JalapenoPriceLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A7D1263CB6CB003163A05EEDC26A6 /* JalapenoPriceLabelView.swift */; };
 		2D036F8B8C82FE6BABE3CE44BA71344F /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD40C25435F85956C01FA783D3C937 /* UIConstants.swift */; };
 		31CA54A1B480AA575D2E4F289B6BA3C9 /* JalapenoTilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A75C6D79B2A09D75FDC2B97DA9861 /* JalapenoTilesView.swift */; };
-		48FE47E60D497A3F7B69F3EBC17F5C87 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37C6004023016EA672CB4927AF9C1F /* Colors.swift */; };
 		4B3C8BF20E9446BD37234BA6C4BFF70D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		511FC4534F9C67EBEF8364627203F4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A69B8BB76FE5AEBA452E8ADE21248BC /* Assets.xcassets */; };
 		6AA402B2220380D9C8CBD21CB0D05BD9 /* JalapenoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4CA2B72C71EEE8020F1331A9E3E14 /* JalapenoModel.swift */; };
@@ -57,7 +56,6 @@
 		0E4EFD03DD723CDB3F217C3D867B1573 /* JalapenoTileCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JalapenoTileCollectionViewCell.swift; path = JalapenoTiles/Classes/JalapenoTileCollectionViewCell.swift; sourceTree = "<group>"; };
 		0FE0B102FDF339B37A81BCC6771159DC /* Pods-JalapenoTiles_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTiles_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2A69B8BB76FE5AEBA452E8ADE21248BC /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = JalapenoTiles/Assets/Assets.xcassets; sourceTree = "<group>"; };
-		3F37C6004023016EA672CB4927AF9C1F /* Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = JalapenoTiles/Classes/Colors.swift; sourceTree = "<group>"; };
 		3F84A79BB518528186EF4B36F82763D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D676B9FFFD8F06D595B8008EF916376 /* Pods-JalapenoTiles_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JalapenoTiles_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C1F8920888236729BF8D8055B6BE810 /* Pods-JalapenoTiles_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JalapenoTiles_Example-resources.sh"; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		574CDC7F219DDA8F83ECA3AC52B96042 /* JalapenoTiles */ = {
 			isa = PBXGroup;
 			children = (
-				3F37C6004023016EA672CB4927AF9C1F /* Colors.swift */,
 				D3B4CA2B72C71EEE8020F1331A9E3E14 /* JalapenoModel.swift */,
 				AB2A7D1263CB6CB003163A05EEDC26A6 /* JalapenoPriceLabelView.swift */,
 				0E4EFD03DD723CDB3F217C3D867B1573 /* JalapenoTileCollectionViewCell.swift */,
@@ -416,7 +413,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48FE47E60D497A3F7B69F3EBC17F5C87 /* Colors.swift in Sources */,
 				6AA402B2220380D9C8CBD21CB0D05BD9 /* JalapenoModel.swift in Sources */,
 				23D0A8196FE67766E27F809BC770B9E5 /* JalapenoPriceLabelView.swift in Sources */,
 				04812A127F2F42629F711E93426D4765 /* JalapenoTileCollectionViewCell.swift in Sources */,

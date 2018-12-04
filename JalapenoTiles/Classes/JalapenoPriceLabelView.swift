@@ -14,7 +14,7 @@ class JalapenoPriceLabelView: UIView {
         let label = UILabel()
         label.font = UIFont(name: "AvenirNext-DemiBold",
                             size: UIConstants.JalapenoPriceLabelView.bigNumberFontSize)
-        label.textColor = UIColor.priceTextColor()
+        label.textColor = UIColor(red:0.38, green:0.80, blue:0.68, alpha:1.0)
         return label
     }()
 
@@ -22,7 +22,7 @@ class JalapenoPriceLabelView: UIView {
         let label = UILabel()
         label.font = UIFont(name: "AvenirNext-DemiBold",
                             size: UIConstants.JalapenoPriceLabelView.smallNumberFontSize)
-        label.textColor = UIColor.priceTextColor()
+        label.textColor = UIColor(red:0.38, green:0.80, blue:0.68, alpha:1.0)
         return label
     }()
 
