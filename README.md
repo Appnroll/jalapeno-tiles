@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-iOS 10.0+
+iOS 10.0+<br />
 Xcode 10.0+
 
 ## Installation
@@ -37,9 +37,9 @@ let data = [JalapenoModel(id: "1",title: "First Item", imageName: "ImageName", p
             JalapenoModel(id: "2",title: "Second Item", imageName: "ImageName", price: 29.99)]
 ```
 
-`id` : String - identifier (to find later Your item in a basket)
-`title` : String - title displayed in cell
-`imageName`: String - image name wich displayed in cell
+`id` : String - identifier (to find later Your item in a basket)<br />
+`title` : String - title displayed in cell<br />
+`imageName`: String - image name wich displayed in cell<br />
 `price`: Double - number displayed on right top in cell
 
 3. Create an instance of `JalapenoTilesView` with the data created above:
@@ -57,8 +57,8 @@ self.view.addConstraintsWithFormat(format: "V:|[v0]|", views: jalapenioCollectio
 
 ## Customization
 
-`showPriceTags`: Bool - Responsible for that if you want the price tag to be displayed or not.
-`textColor`: UIColor - Changes the title label color in the cell.
+`showPriceTags`: Bool - Responsible for that if you want the price tag to be displayed or not.<br />
+`textColor`: UIColor - Changes the title label color in the cell.<br />
 `accentColor`: UIColor - Chanes the price label, count label and buttons (add,remove) color in the cell
 
 ## Author
