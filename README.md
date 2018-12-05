@@ -26,13 +26,13 @@ pod 'JalapenoTiles'
 
 1. Import JalapenoTiles in the view where you want to use it:
 
-```
+```swift
 import JalapenoTiles
 ```
 
 2. Create Array with JalapenoModel in which you declare all items displayed in Tails.
 
-```
+```swift
 let data = [JalapenoModel(id: "1",title: "First Item", imageName: "ImageName", price: 10.99), 
             JalapenoModel(id: "2",title: "Second Item", imageName: "ImageName", price: 29.99)]
 ```
@@ -44,13 +44,13 @@ let data = [JalapenoModel(id: "1",title: "First Item", imageName: "ImageName", p
 
 3. Create an instance of `JalapenoTilesView` with the data created above:
 
-```
+```swift
 let jalapenioCollectionView = JalapenoTilesView(data: data)
 ```
 
 4. Use autolayout or another code based method to set up sizes (I use VFL):
 
-```
+```swift
 self.view.addConstraintsWithFormat(format: "H:|[v0]|", views: jalapenioCollectionView)
 self.view.addConstraintsWithFormat(format: "V:|[v0]|", views: jalapenioCollectionView)
 ```
