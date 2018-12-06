@@ -47,8 +47,13 @@ let data = [JalapenoModel(id: "1",title: "First Item", imageName: "ImageName", p
 ```swift
 let jalapenioCollectionView = JalapenoTilesView(data: data)
 ```
+4. Add `JalapenoTilesView` to subview:
 
-4. Use autolayout or another code based method to set up sizes (I use VFL):
+```
+self.view.addSubview(jalapenioCollectionView)
+```
+
+5. Use autolayout or another code based method to set up sizes (I use VFL):
 
 ```swift
 self.view.addConstraintsWithFormat(format: "H:|[v0]|", views: jalapenioCollectionView)
